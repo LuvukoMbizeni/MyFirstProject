@@ -8,8 +8,10 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="@string/home_fragment"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/Muli-Bold"/>
 
-    
+
 
 </RelativeLayout>
