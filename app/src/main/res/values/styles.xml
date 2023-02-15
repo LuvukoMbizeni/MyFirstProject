@@ -12,4 +12,14 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="navigationTheme">
+
+        <!-- color for text and icon when selected -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- background color when selected -->
+        <item name="android:colorControlHighlight">#000</item>
+
+    </style>
+
 </resources>

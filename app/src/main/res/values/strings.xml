@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TestingProject</string>
+    <string name="app_name">MyProject</string>
     <string name="title_activity_dashboard">Dashboard</string>
 
 
@@ -19,6 +19,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home_fragment">Home fragment</string>
+    <string name="view_all">View All</string>
+    <string name="categories">Categories</string>
 
 
 </resources>

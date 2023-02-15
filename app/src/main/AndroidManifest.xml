@@ -25,7 +25,8 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".Login" />
         <activity android:name=".OnBoarding" />
-        <activity android:name=".MyInstaLoginPage"></activity>
+        <activity android:name=".MyInstaLoginPage" />
+        <activity android:name=".dashboards.UserDashboard"></activity>
     </application>
 
 </manifest>

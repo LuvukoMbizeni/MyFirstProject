@@ -2,6 +2,7 @@ package xhosabirds.lvk.co.za.iintakangesixhosa;
 
 
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.text.Html;
 import android.view.View;
 import android.view.WindowManager;
@@ -10,6 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.text.HtmlCompat;
 import androidx.viewpager.widget.ViewPager;
 
 
@@ -46,14 +48,18 @@ public class OnBoarding extends AppCompatActivity {
 
         for (int i = 0; i < dots.length; i++) {
             dots[i] = new TextView(this);
-            dots[i].setText(Html.fromHtml("&#8226"));
+            //dots[i].setText(Html.fromHtml("&#8226"));
+            dots[i].setText(HtmlCompat.fromHtml("&#8226", HtmlCompat.FROM_HTML_MODE_LEGACY));
             dots[i].setTextSize(35);
 
             dotsLayout.addView(dots[i]);
         }
 
         if(dots.length > 0){
-            dots[position].setTextColor(getResources().getColor(R.color.colorPrimary));
+
+            //dots[position].setTextColor(getResources().getColor(R.color.colorPrimary));
+            dots[position].setTextColor(ContextCompat.getColor(OnBoarding.this,R.color.colorPrimary));
+
 
         }
 
